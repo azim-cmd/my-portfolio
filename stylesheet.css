@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  height: 80px;
+  width: 100vw;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  background-color: rgb(18, 18, 62);
+  position: fixed;
+  z-index: 1;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: blueviolet;
+  font-size: 1.1rem;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+.left {
+  width: 320px;
+  font-size: 1.5rem;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  /* margin: 80px 0; */
+  align-items: center;
+}
+
+.firstSection>div {
+  width: 30%;
+}
+
+.leftSection {
+  font-size: 2rem;
+}
+
+#element {
+  color: blueviolet;
+}
+
+.btn {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 40px;
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s ease-in 0s;
+}
+
+.btn:hover{
+  transform: scale(1.1);
+  background-color: rgb(0, 0, 33);
+}
+
+.rightSection img {
+  width: 80%;
+  margin: 100px 20px 100px 20px;
+}
+
+.purple {
+  color: blueviolet;
+}
+
+hr {
+  border-color: blueviolet;
+  max-width: 80vw;
+  margin: auto;
+  margin-bottom: 5vw;
+}
+
+.secondSection {
+  height: 80vh;
+  max-width: 80vw;
+  margin: auto;
+}
+
+.textGray {
+  color: grey;
+}
+
+.secondSection .box {
+  height: 2px;
+  width: 80vw;
+  margin: 50px 0;
+  background-color: white;
+  display: flex;
+}
+
+.secondSection .vertical {
+  height: 90px;
+  width: 1px;
+  margin: 0 200px;
+  background-color: white;
+}
+
+.image {
+  width: 20px;
+  position: relative;
+  top: -30px;
+  right: 10px;
+}
+
+.verticalTitle {
+  position: relative;
+  top: 75px;
+  right: 50px;
+  width: 150px;
+}
+
+.verticalDesc {
+  width: 150px;
+  position: relative;
+  top: 85px;
+  right: 50px;
+  color: grey;
+  font-size: 9px;
+}
+
+#image2 {
+  width: 40px;
+  top: -35px;
+  right: 20px;
+}
+
+footer {
+  height: 200px;
+  background-color: #0e0e1a;
+
+}
+
+.footer {
+  padding: 20px 120px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer>div {
+  width: 120px;
+}
+
+footer .madeWith{
+  text-align: center;
+  background-color: #0e0e1a;
+  color: grey;
+}
+footer .footer-rights {
+  text-align: center;
+  background-color: #0e0e1a;
+  color: grey;
+}
