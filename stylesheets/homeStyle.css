@@ -44,6 +44,11 @@ nav ul li {
   font-size: 1.5rem;
 }
 
+.left:hover{
+  color: blueviolet;
+  font-size: 1.6rem;
+}
+
 .firstSection {
   display: flex;
   justify-content: space-around;
@@ -190,4 +195,17 @@ footer .footer-rights {
   text-align: center;
   background-color: #0e0e1a;
   color: grey;
+}
+
+.footer ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.footerFirst ul li :hover{
+  color: blueviolet;
+}
+
+.footerSecond ul li a:hover{
+  color: blueviolet;
 }
